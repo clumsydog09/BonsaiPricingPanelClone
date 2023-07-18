@@ -1,0 +1,14 @@
+/*! referance image : https://www.frontendpractice.com/_next/image?url=%2Ffullsize%2FC2-bonsai.png&w=1200&q=90 */
+/*! project link : https://www.frontendpractice.com/projects/bonsai */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
