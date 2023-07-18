@@ -1,14 +1,43 @@
-/*! referance image : https://www.frontendpractice.com/_next/image?url=%2Ffullsize%2FC2-bonsai.png&w=1200&q=90 */
-/*! project link : https://www.frontendpractice.com/projects/bonsai */
+/** live preview : http://web.archive.org/web/20221117021714/https://www.hellobonsai.com/pricing */
+/** referance image : https://www.frontendpractice.com/_next/image?url=%2Ffullsize%2FC2-bonsai.png&w=1200&q=90 */
+/** project link : https://www.frontendpractice.com/projects/bonsai */
+/** colour : #00a37e */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html,
 body {
     width: 100%;
     height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.divBorder{
+    border: 2px solid black;
+}
+#pricingPanel{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#startFree{
+    display: flex;
+    justify-content: space-evenly;
 }
