@@ -10,34 +10,41 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-html,
-body {
+html {
     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 60%;
     height: 100%;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-.divBorder{
+.blackBorder {
     border: 2px solid black;
 }
-#pricingPanel{
+
+#nav{
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#footer{
+#navRight{
     display: flex;
+    width: 70%;
     justify-content: space-evenly;
+    flex-direction:row-reverse;
 }
 
-#startFree{
-    display: flex;
-    justify-content: space-evenly;
-}
