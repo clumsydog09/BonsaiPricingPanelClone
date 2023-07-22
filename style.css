@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color: #4c525a;
 }
 
 html {
@@ -19,7 +20,7 @@ html {
 }
 
 body {
-    width: 60%;
+    width: 70%;
     height: 100%;
 }
 
@@ -35,16 +36,98 @@ ul {
     border: 2px solid black;
 }
 
-#nav{
+#nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    width: 70%;
 }
 
-#navRight{
+#navRight {
     display: flex;
     width: 70%;
-    justify-content: space-evenly;
-    flex-direction:row-reverse;
+    font-size: 0.9rem;
+    justify-content: space-between;
+    flex-direction: row-reverse;
 }
 
+#navRight>a {
+    padding: 0.5rem;
+}
+
+#navLeft>a>img {
+    height: 1.8rem;
+}
+
+.navBtn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.2rem;
+    border: none;
+}
+
+.navBtn:nth-of-type(2) {
+    background-color: white;
+    color: #00a37e;
+    font-weight: 800;
+    border: 2px solid #00a37e;
+}
+
+.navBtn:nth-of-type(1) {
+    background-color: #00a37e;
+    color: white;
+    font-weight: 800;
+    border: 1px solid #00a37e;
+}
+
+.navBtn:nth-of-type(2):hover {
+    background-color: #00a37e;
+    color: white;
+    transition: 0.1s;
+}
+
+.navBtn:nth-of-type(1):hover {
+    background-color: #00a37e;
+    color: white;
+    transition: 0.1s;
+}
+
+#content {
+    margin-top: 200px;
+}
+
+#pricingPlans {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* align-items: center; */
+}
+
+#pricingPlans>div>button {
+    background-color: #00a37e;
+    color: white;
+    font-weight: 800;
+    border: 1px solid #00a37e;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.2rem;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.plans{
+    border: 1px solid #4c525a;
+    border-radius: 0.2rem;
+    width: 30%;
+    padding: 2rem;
+}
+.plans>button{
+    width: 100%;
+    padding: 5px;
+    margin: 0px auto;
+}
+
+/*TODO: make the navbar wider and increase the space between img, the anchor tags and the buttons 
