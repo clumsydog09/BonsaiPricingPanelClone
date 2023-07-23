@@ -41,6 +41,20 @@ li {
     border: 2px solid black;
 }
 
+.hidden {
+    display: none;
+}
+
+.transform {
+    transform: rotate(0.25turn);
+    transition: 0.15s;
+}
+
+button:not(#loginBtn):hover{
+    background-color: #008465;
+    transition: 0.1s;
+}
+
 #nav {
     display: flex;
     align-items: center;
@@ -100,7 +114,7 @@ li {
 }
 
 #content {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 #pricingPlans {
@@ -207,6 +221,47 @@ li {
     border: 1px solid #00a37e;
     border-radius: 0.2rem;
     padding: 1rem 1.5rem;
+}
+
+#faqPanel {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10rem auto;
+}
+
+#faqPanel>h1 {
+    margin: 2rem auto;
+    color: #00a37e;
+}
+
+#faqPanel>div>h2:hover {
+    color: #00a37e;
+}
+
+.faqQuesAns {
+    padding: 0.5rem;
+}
+
+.faqQues {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer {
+    display: flex;
+    border-top: 1px solid #4c525a;
+    padding: 4rem;
+    justify-content: space-around;
+}
+
+#footer>div>span {
+    font-weight: 600;
+}
+
+.footerLinks:hover {
+    color: #00a37e;
 }
 
 /*TODO: make the navbar wider and increase the space between img, the anchor tags and the buttons 

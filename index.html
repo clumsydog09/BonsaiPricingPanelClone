@@ -22,7 +22,7 @@
         </div>
         <div id="navRight">
             <button class="navBtn">START FREE</button>
-            <button class="navBtn">LOG IN</button>
+            <button class="navBtn" id="loginBtn">LOG IN</button>
             <a href="#">Reviews</a>
             <a href="#">Pricing</a>
             <a href="#">Templates</a>
@@ -155,22 +155,29 @@
                     <h3>Collaborators</h3>
                     <p>Invite other users to specific projects for limited access and functionality.</p>
                 </div>
-                <span class="addonsSpan"><p class="addonsPrice">FREE</p></span>
+                <span class="addonsSpan">
+                    <p class="addonsPrice">FREE</p>
+                </span>
             </div>
             <div class="addonsDiv">
                 <div>
                     <h3>Partners</h3>
                     <p>Invite other users for full account access and company management.</p>
                 </div>
-                <span class="addonsSpan"><p class="addonsPrice">$9</p>/MONTH</span>
+                <span class="addonsSpan">
+                    <p class="addonsPrice">$9</p>/MONTH
+                </span>
             </div>
             <div class="addonsDiv">
                 <div>
                     <h3>Bonsai Tax</h3>
                     <p>Track expenses, identify write-offs, and estimate quarterly taxes easily.</p>
-                    <a href="#" style="color: #00a37e; font-weight: 600">LEARN MORE <span style="color: #00a37e; font-weight: 600">></span></a>
+                    <a href="#" style="color: #00a37e; font-weight: 600">LEARN MORE <span
+                            style="color: #00a37e; font-weight: 600">></span></a>
                 </div>
-                <span class="addonsSpan"><p class="addonsPrice">$10</p>/MONTH</span>
+                <span class="addonsSpan">
+                    <p class="addonsPrice">$10</p>/MONTH
+                </span>
             </div>
         </div>
 
@@ -183,12 +190,45 @@
         </div>
 
         <div id="faqPanel">
-            <h3>FAQs</h3>
+            <h1>Frequently Asked Questions</h1>
+            <div class="faqQuesAns">
+                <h2 class="faqQues">How does the free trial work?<img src="images/bx-chevron-right.png"
+                        class="faqArrow"></h2>
+                <p class="faqAns hidden">When you start your trial with Bonsai you'll receive full, unlimited access to
+                    all of Bonsai's Workflow or Workflow Plus Features! You will need to enter your credit card
+                    information to begin your trial, but don't worry - we won't charge you anything until the
+                    subscription ends! If you wish to cancel at any time during the trial period, you can do so through
+                    your Subscriptions Settings Page.</p>
+            </div>
+            <div class="faqQuesAns">
+                <h2 class="faqQues">Can I change plans anytime?<img src="images/bx-chevron-right.png" class="faqArrow">
+                </h2>
+                <p class="faqAns hidden">Yes, you can from within your account. If you have already subscribed to a
+                    plan, or want to downgrade or upgrade your current one, you can do this by going to your "Settings"
+                    and "Subscription".</p>
+            </div>
+            <div class="faqQuesAns">
+                <h2 class="faqQues">How do I pause my Bonsai subscription?<img src="images/bx-chevron-right.png"
+                        class="faqArrow"></h2>
+                <p class="faqAns hidden">We totally understand that with the nature of freelancing, work ebbs and flows
+                    so you might not always need your Bonsai subscription to remain active! The good news is that you
+                    can cancel or pause your monthly subscription at any time without penalty. Once cancelled, you'll be
+                    able to continue logging in to access all your documents and even continue to use our free features,
+                    like Time Tracking! In order to cancel your subscription, login to your Bonsai account.</p>
+            </div>
+            <div class="faqQuesAns">
+                <h2 class="faqQues">What is your refund policy?<img src="images/bx-chevron-right.png" class="faqArrow">
+                </h2>
+                <p class="faqAns hidden">If you contact us within 2 weeks of being charged for your subscription, we
+                    will be happy to issue a refund for you!Beyond those 2 weeks, you will need to cancel or modify the
+                    subscription from the Subscriptions Tab in Settings to avoid future charges, but refunds will not be
+                    issued. This applies to both monthly and annual plans.</p>
+            </div>
         </div>
 
         <div id="footer">
             <div>
-                PRODUCT
+                <span>PRODUCT</span>
                 <ul>
                     <li><a href="#">Proposals</a></li>
                     <li><a href="#">Contracts</a></li>
@@ -197,7 +237,7 @@
                 </ul>
             </div>
             <div>
-                CONNECT
+                <span>CONNECT</span>
                 <ul>
                     <li><a href="#">Twitter</a></li>
                     <li><a href="#">LinkedIn</a></li>
@@ -206,7 +246,7 @@
                 </ul>
             </div>
             <div>
-                BONSAI
+                <span>BONSAI</span>
                 <ul>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Support</a></li>
@@ -216,9 +256,6 @@
             </div>
         </div>
     </div>
-
-    <button id="deleteLater1">borderDiv</button>
-    <button id="deleteLater2">borderBody</button>
 
     <script src="app.js"></script>
 </body>
